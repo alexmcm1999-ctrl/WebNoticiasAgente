@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Radar diario IA y energia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <section>
+          <p class="eyebrow" data-i18n="eyebrow">Radar diario</p>
+          <h1 data-i18n="title">IA y mercado energetico</h1>
+        </section>
+        <section class="status-panel" aria-label="Estado del informe">
+          <span id="generatedAt">Sin actualizar</span>
+          <span id="sourceHealth">Cargando fuentes</span>
+          <label class="language-switcher" for="languageSelect">
+            <span data-i18n="language">Idioma</span>
+            <select id="languageSelect" aria-label="Idioma">
+              <option value="es">ES</option>
+              <option value="en">EN</option>
+            </select>
+          </label>
+        </section>
+      </header>
+
+      <nav class="tabs" aria-label="Secciones del informe">
+        <button class="tab active" type="button" data-topic="ai" data-topic-label-es="IA" data-topic-label-en="AI">IA</button>
+        <button class="tab" type="button" data-topic="energy" data-topic-label-es="Energia" data-topic-label-en="Energy">Energia</button>
+      </nav>
+
+      <section class="summary-band" id="summary"></section>
+
+      <section class="toolbar" aria-label="Filtros">
+        <label class="search-box">
+          <span data-i18n="search">Buscar</span>
+          <input id="searchInput" type="search" placeholder="Fuente, tema o titular" />
+        </label>
+        <select id="sourceType">
+          <option value="all" data-i18n="filterAll">Todas las fuentes</option>
+          <option value="forum" data-i18n="filterForum">Solo foros</option>
+          <option value="rss" data-i18n="filterRss">Noticias / RSS</option>
+          <option value="paper" data-i18n="filterPaper">Papers</option>
+        </select>
+      </section>
+
+      <section class="feed" id="feed" aria-live="polite"></section>
+
+      <section class="errors" id="errors" hidden></section>
+    </main>
+
+    <script src="digest.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

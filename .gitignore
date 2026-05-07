@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/digest.json
+data/digest.js
+data/translation_cache.json

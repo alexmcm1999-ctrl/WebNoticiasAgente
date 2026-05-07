@@ -1,0 +1,122 @@
+{
+  "settings": {
+    "max_items_per_topic": 18,
+    "lookback_hours": 72,
+    "request_timeout_seconds": 18,
+    "local_models": {
+      "provider": "ollama",
+      "enabled": true,
+      "base_url": "http://localhost:11434",
+      "summary_model": "llama3.1:8b",
+      "translation_model": "qwen2.5:3b",
+      "timeout_seconds": 180
+    },
+    "translation_cache_enabled": true,
+    "translate_top_items_per_topic": 5
+  },
+  "topics": [
+    {
+      "id": "ai",
+      "label": "Inteligencia artificial",
+      "description": "Noticias, investigacion, productos, regulacion y conversaciones tecnicas sobre IA.",
+      "keywords": [
+        "artificial intelligence",
+        "ai",
+        "machine learning",
+        "llm",
+        "openai",
+        "anthropic",
+        "google deepmind",
+        "nvidia",
+        "model",
+        "agent",
+        "regulation",
+        "chip"
+      ],
+      "sources": [
+        {
+          "name": "Google News IA",
+          "type": "rss",
+          "url": "https://news.google.com/rss/search?q=(artificial%20intelligence%20OR%20AI%20OR%20LLM)%20when:3d&hl=es&gl=ES&ceid=ES:es",
+          "weight": 0.92
+        },
+        {
+          "name": "Hacker News IA",
+          "type": "hn_algolia",
+          "query": "artificial intelligence OR llm OR openai OR ai agent",
+          "weight": 0.9
+        },
+        {
+          "name": "Reddit MachineLearning",
+          "type": "reddit",
+          "subreddit": "MachineLearning",
+          "weight": 0.78
+        },
+        {
+          "name": "Reddit LocalLLaMA",
+          "type": "reddit",
+          "subreddit": "LocalLLaMA",
+          "weight": 0.72
+        },
+        {
+          "name": "arXiv IA y ML",
+          "type": "arxiv",
+          "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL",
+          "weight": 0.7
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "label": "Mercado energetico",
+      "description": "Precios, energia electrica, petroleo, gas, renovables, redes, geopolitica y regulacion.",
+      "keywords": [
+        "energy market",
+        "electricity",
+        "power price",
+        "gas",
+        "oil",
+        "renewables",
+        "solar",
+        "wind",
+        "grid",
+        "storage",
+        "opec",
+        "lng",
+        "carbon"
+      ],
+      "sources": [
+        {
+          "name": "Google News Energia ES",
+          "type": "rss",
+          "url": "https://news.google.com/rss/search?q=(mercado%20energetico%20OR%20precio%20electricidad%20OR%20gas%20OR%20petroleo%20OR%20renovables)%20when:3d&hl=es&gl=ES&ceid=ES:es",
+          "weight": 0.94
+        },
+        {
+          "name": "Google News Energy Global",
+          "type": "rss",
+          "url": "https://news.google.com/rss/search?q=(energy%20market%20OR%20electricity%20prices%20OR%20oil%20gas%20OR%20renewables)%20when:3d&hl=en-US&gl=US&ceid=US:en",
+          "weight": 0.86
+        },
+        {
+          "name": "Reddit Energy",
+          "type": "reddit",
+          "subreddit": "energy",
+          "weight": 0.72
+        },
+        {
+          "name": "Reddit RenewableEnergy",
+          "type": "reddit",
+          "subreddit": "RenewableEnergy",
+          "weight": 0.68
+        },
+        {
+          "name": "Hacker News Energia",
+          "type": "hn_algolia",
+          "query": "energy market OR electricity prices OR nuclear energy OR solar grid",
+          "weight": 0.62
+        }
+      ]
+    }
+  ]
+}
