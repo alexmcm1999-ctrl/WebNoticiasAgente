@@ -1,5 +1,5 @@
 window.DIGEST_DATA = {
-  "generatedAt": "2026-05-07T18:23:41.253782+00:00",
+  "generatedAt": "2026-05-08T15:28:55.469478+00:00",
   "settings": {
     "lookbackHours": 72,
     "maxItemsPerTopic": 18
@@ -10,20 +10,18 @@ window.DIGEST_DATA = {
       "label": "Inteligencia artificial",
       "description": "Noticias, investigacion, productos, regulacion y conversaciones tecnicas sobre IA.",
       "summary": {
-        "headline": "Alerta de malware en modelos de IA y noticias sobre tecnología",
+        "headline": "Alerta sobre malware en modelos de IA y noticias sobre avances en tecnología",
         "bullets": [
-          "Investigar el malware 'Open-OSS/privacy-filter' que se está propagando en Hugging Face",
-          "Revisar la seguridad de los modelos de IA antes de su uso",
-          "Explorar las últimas mejoras en tecnologías como MTP y Qwen3.6 27B"
+          "Investigar la noticia sobre el malware 'Open-OSS/privacy-filter' que se está disfrazando como un modelo de privacidad de OpenAI",
+          "Revisar las últimas mejoras en los modelos de LLaMA y Gemma, incluyendo la implementación de predicción multi-tokens y la aceleración de 40% en velocidad",
+          "Considerar la posibilidad de que los modelos locales estén alcanzando niveles de calidad suficientes para realizar tareas diarias sin necesidad de modelos en la nube"
         ],
         "themes": [
-          "Seguridad en IA",
-          "Tecnología de procesamiento de lenguaje ",
-          "Modelos de IA avanzados",
-          "Malware en IA",
-          "Tendencias en tecnología de IA",
-          "Aplicaciones de IA en desarrollo",
-          "Infraestructura para la IA"
+          "Malware en modelos de IA",
+          "Avances en tecnología de LLaMA y Gemma",
+          "Uso de modelos locales vs. modelos en la",
+          "Privacidad y seguridad en la IA",
+          "Tendencias en el desarrollo de modelos d"
         ],
         "model": "ollama:llama3.1:8b",
         "sourceCount": 2,
@@ -38,8 +36,8 @@ window.DIGEST_DATA = {
           "sourceType": "forum",
           "published": "2026-05-07T16:20:54+00:00",
           "summary": "There's this new \"model\" on Hugging Face titled `Open-OSS/privacy-filter` which is actually a customized infostealer virus. It's a fake version of the OpenAI privacy filter and it uses a Python-based dropper (`loader.py`) which downloads a malicious…",
-          "score": 3.012,
-          "rawScore": 375.0,
+          "score": 3.148,
+          "rawScore": 998.0,
           "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6febk/warning_openossprivacyfilter_malware/",
           "translations": {
             "es": {
@@ -50,205 +48,219 @@ window.DIGEST_DATA = {
         },
         {
           "topic": "ai",
-          "title": "Qwen3.6 27B uncensored heretic v2 Native MTP Preserved is Out Now With KLD 0.0021, 6/100 Refusals and the Full 15 MTPs Preserved and Retained, Available in Safetensors, GGUFs and…",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t5yajb/qwen36_27b_uncensored_heretic_v2_native_mtp/",
+          "title": "Collected the infinity stones",
+          "url": "https://i.redd.it/vf2d4tkimszg1.jpeg",
           "source": "Reddit LocalLLaMA",
           "sourceType": "forum",
-          "published": "2026-05-07T02:59:31+00:00",
-          "summary": "llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved: llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF: llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-NVFP4-GGUF…",
-          "score": 2.77,
-          "rawScore": 424.0,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5yajb/qwen36_27b_uncensored_heretic_v2_native_mtp/",
+          "published": "2026-05-07T22:39:57+00:00",
+          "summary": "2.3 TB of ram in here. 400+ vCores. All thats left is plugging it to the blackwell with the driver to do RDMA, and it’s over. Using Blackwells for prefill, RDMA to the studio mesh for decode. I think this would be the first heterogeneous cluster. I do…",
+          "score": 2.85,
+          "rawScore": 1513.0,
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6pw92/collected_the_infinity_stones/",
           "translations": {
             "es": {
-              "title": "Qwen3.6 27B uncensored heretic v2 Native MTP Preserved",
-              "summary": "Nueva versión de Qwen3.6 27B sin censura, con KLD 0.0021 y 6/100 rechazos. Se preservaron los totales de 15 MTPs."
+              "title": "Colocando los Stones del Infinito",
+              "summary": "400+ vCores y 2.3 TB de RAM en la máquina. Sólo falta conectarla al Blackwell con el driver para RDMA, y ya está. Usaremos el Blackwell como prefill y RDMA a través de la red del estudio para la decodificación. Creo que esto será el primer cluster…"
             }
           }
         },
         {
           "topic": "ai",
-          "title": "ZAYA1-8B: Frontier intelligence density, trained on AMD",
-          "url": "https://www.zyphra.com/post/zaya1-8b",
+          "title": "You can now read Gemma 3's mind",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t6u1os/you_can_now_read_gemma_3s_mind/",
           "source": "Reddit LocalLLaMA",
           "sourceType": "forum",
-          "published": "2026-05-06T19:43:52+00:00",
-          "summary": "",
-          "score": 2.603,
-          "rawScore": 501.0,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5nll0/zaya18b_frontier_intelligence_density_trained_on/",
-          "translations": {
-            "es": {
-              "title": "ZAYA1-8B: Inteligencia frontera densa, entrenada en AMD",
-              "summary": "Modelo ZAYA1-8B de Inteligencia Fronteriza con alta densidadía de información, entrenado en hardware AMD."
-            }
-          }
-        },
-        {
-          "topic": "ai",
-          "title": "AMD Intros Instinct MI350P Accelerator: CDNA 4 Comes to PCIe Cards",
-          "url": "https://www.reddit.com/gallery/1t6b2x8",
-          "source": "Reddit LocalLLaMA",
-          "sourceType": "forum",
-          "published": "2026-05-07T13:47:49+00:00",
-          "summary": "No word on pricing or availability yet.",
-          "score": 2.544,
-          "rawScore": 268.5,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6b2x8/amd_intros_instinct_mi350p_accelerator_cdna_4/",
-          "translations": {
-            "es": {
-              "title": "AMD Presenta Instinct MI350P: CDNA 4 en Tarjetas PCIe",
-              "summary": "La AMD ha presentado el Instinct MI350P, que integra la tecnología CDNA 4. Aún no hay información sobre precios ni disponibilidad."
-            }
-          }
-        },
-        {
-          "topic": "ai",
-          "title": "Need advice on hardware purchasing decision: RTX 5090 vs. M5 Max 128GB for agentic software development",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t5v2gr/need_advice_on_hardware_purchasing_decision_rtx/",
-          "source": "Reddit LocalLLaMA",
-          "sourceType": "forum",
-          "published": "2026-05-07T00:34:19+00:00",
-          "summary": "tl;dr - For software development, Qwen3.6 27B, 5090 gives you ~3x speed over M5 Max, letting you plow through code, while M5 Max gives you ~4x memory, letting you use higher quantization and bigger context. Which would you choose and why? --- I've been doing…",
-          "score": 2.407,
-          "rawScore": 280.0,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5v2gr/need_advice_on_hardware_purchasing_decision_rtx/",
-          "translations": {
-            "es": {
-              "title": "Solicito consejo para tomar una decisión de compra de hardware: RTX 5090 vs M5 Max 128GB para desarrollo de software",
-              "summary": "Para el desarrollo de software, la Qwen3.6 (27B) con la RTX 5090 ofrece un aumento del 3x en velocidad respecto a la M5 Max, mientras que la M5 Max proporciona un aumento del 4x en memoria, lo cual permite usar una mayor cantidad de cuantización y contextos…"
-            }
-          }
-        },
-        {
-          "topic": "ai",
-          "title": "ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference",
-          "url": "https://i.redd.it/9gim2lznimzg1.jpeg",
-          "source": "Reddit LocalLLaMA",
-          "sourceType": "forum",
-          "published": "2026-05-07T02:07:48+00:00",
-          "summary": "",
-          "score": 2.389,
+          "published": "2026-05-08T01:44:22+00:00",
+          "summary": "Anthropic has released new research to show what an LLM is thinking when generating next token using NLA or \"Natural Language Autoencoders\", the NLAs are a pair of LLMs that can translate internal thoughts of LLM for any specific token. Neuronpedia in…",
+          "score": 2.758,
           "rawScore": 130.5,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5x5s0/paroquant_pairwise_rotation_quantization_for/",
-          "translations": {}
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6u1os/you_can_now_read_gemma_3s_mind/",
+          "translations": {
+            "es": {
+              "title": "Puedes leer ahora los pensamientos de Gemma 3",
+              "summary": "Anthropic ha lanzado nuevos estudios para mostrar cómo una LLM está pensando cuando genera el siguiente token usando NLAs (Natural Language Autoencoders). Los NLAs son un par de LLMs que pueden traducir los pensamientos internos de una LLM para cualquier…"
+            }
+          }
         },
         {
           "topic": "ai",
-          "title": "Uploaded Unsloth Qwen3.6-35B-A3B UD XL models with MTP grafted, here are the results",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t5r4tz/uploaded_unsloth_qwen3635ba3b_ud_xl_models_with/",
+          "title": "Multi-Token Prediction (MTP) for LLaMA.cpp - Gemma 4 speedup by 40%",
+          "url": "https://v.redd.it/ccxn81zo5tzg1",
           "source": "Reddit LocalLLaMA",
           "sourceType": "forum",
-          "published": "2026-05-06T21:51:47+00:00",
-          "summary": "Following my previous post a few people asked for the 35B A3B version. The model is up on HuggingFace at if anyone wants to check it out. It includes the isolated MTP layers and convert.py as well. The results are not great though. Q4 only got a 6% speed…",
-          "score": 2.364,
-          "rawScore": 132.0,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5r4tz/uploaded_unsloth_qwen3635ba3b_ud_xl_models_with/",
-          "translations": {}
+          "published": "2026-05-08T00:27:44+00:00",
+          "summary": "Implemented Multi-Token Prediction for LLaMA.cpp. Quantized Gemma 4 assistant models into GGUF format. Ran tests on a MacBook Pro M5Max. Gemma 26B with MTP drafts tokens 40% faster. Prompt: Write a Python program to find the nth Fibonacci number using…",
+          "score": 2.685,
+          "rawScore": 516.0,
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6se6r/multitoken_prediction_mtp_for_llamacpp_gemma_4/",
+          "translations": {
+            "es": {
+              "title": "Predicción de múltiples tokens (MTP) para LLaMA.cpp - Aceleración del Gemma 4 del 40%",
+              "summary": "Implementamos la Predicción de Múltiples Tokens en LLaMA.cpp. Quantizamos los modelos asistentes Gemma 4 en formato GGUF. Realizamos pruebas en un MacBook Pro M5Max. El Gemma 26B con MTP genera tokens 40% más rápido. Prompt: Escribe un programa en Python…"
+            }
+          }
         },
         {
           "topic": "ai",
-          "title": "feat: Add Mimo v2.5 model support by AesSedai · Pull Request #22493 · ggml-org/llama.cpp",
-          "url": "https://github.com/ggml-org/llama.cpp/pull/22493",
+          "title": "Taiwanese company Skymizer announces HTX301 - PCIE inference card with 384GB of Memory at ~240 Watts",
+          "url": "https://skymizer.ai/skymizer-announces-htx301-reinventing-on-prem-ai-inference/",
           "source": "Reddit LocalLLaMA",
           "sourceType": "forum",
-          "published": "2026-05-07T11:23:28+00:00",
-          "summary": "# Model Summary * **Architecture**: Sparse MoE (Mixture of Experts), 310B total / 15B activated parameters * **Context Length**: Up to 1M tokens * **Modalities**: Text, Image, Video, Audio * **Vision Encoder**: 729M-param ViT (28 layers: 24 SWA + 4 Full) *…",
-          "score": 2.319,
-          "rawScore": 82.5,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t67lvx/feat_add_mimo_v25_model_support_by_aessedai_pull/",
-          "translations": {}
+          "published": "2026-05-08T01:36:22+00:00",
+          "summary": "",
+          "score": 2.534,
+          "rawScore": 323.0,
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6tvfw/taiwanese_company_skymizer_announces_htx301_pcie/",
+          "translations": {
+            "es": {
+              "title": "La compañía taiwanesa Skymizer anuncia HTX301 - Tarjeta PCIe de inferencia con 384 GB de memoria a ~240 W",
+              "summary": ""
+            }
+          }
         },
         {
           "topic": "ai",
-          "title": "Most people seem obsessed with token generation speed, but isn’t prefill the real bottleneck? Am I missing something?",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t5o4kc/most_people_seem_obsessed_with_token_generation/",
+          "title": "Are local models becoming “good enough” faster than expected?",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t6p0zk/are_local_models_becoming_good_enough_faster_than/",
           "source": "Reddit LocalLLaMA",
           "sourceType": "forum",
-          "published": "2026-05-06T20:02:22+00:00",
-          "summary": "I read this sub every day and I keep seeing benchmarks and discussions focused almost entirely on tokens/s generation speed. Prompt processing speed barely gets mentioned. From my own experience running a bunch of different models on different GPUs for all…",
-          "score": 2.271,
-          "rawScore": 191.5,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5o4kc/most_people_seem_obsessed_with_token_generation/",
-          "translations": {}
+          "published": "2026-05-07T22:04:25+00:00",
+          "summary": "One thing we’ve been noticing lately is that a surprisingly large percentage of day-to-day AI workflows no longer seem to require frontier-scale cloud models 24/7. For a lot of practical tasks: * code explanation * structured edits * summarization *…",
+          "score": 2.531,
+          "rawScore": 233.0,
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6p0zk/are_local_models_becoming_good_enough_faster_than/",
+          "translations": {
+            "es": {
+              "title": "¿Los modelos locales están mejorando más rápido de lo esperado?",
+              "summary": "Una cosa que hemos notado recientemente es que un porcentaje sorprendentemente grande de las tareas diarias de IA ya no parecen requerir modelos de nube frontales 24/7. Para muchos trabajos prácticos: * explicación de código * ediciones estructuradas *…"
+            }
+          }
         },
         {
           "topic": "ai",
-          "title": "Get faster qwen 3.6 27b",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t5tnzl/get_faster_qwen_36_27b/",
-          "source": "Reddit LocalLLaMA",
-          "sourceType": "forum",
-          "published": "2026-05-06T23:33:07+00:00",
-          "summary": "Using 100k context with 3090 with MTP GGUF and getting 50 t/s on llama.cpp Thought I would knowledge share Use And am17an commit - How to apply - Steps ```bash cd path/to/llama.cpp git fetch origin pull/22673/head:pr-22673 git checkout pr-22673 ``` My exact…",
-          "score": 2.219,
-          "rawScore": 226.0,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5tnzl/get_faster_qwen_36_27b/",
-          "translations": {}
-        },
-        {
-          "topic": "ai",
-          "title": "why llama.cpp can’t combine speculative decode methods?",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t63snn/why_llamacpp_cant_combine_speculative_decode/",
-          "source": "Reddit LocalLLaMA",
-          "sourceType": "forum",
-          "published": "2026-05-07T07:53:13+00:00",
-          "summary": "dicking around with the new mtp speculative decode with qwen3.6 27b, and it’s great. but for agentic coding i’ve seen significant improvements from ngram, because a decent fraction of the time (e.g. calling edit tool) the model is just repeating verbatim a…",
-          "score": 2.212,
-          "rawScore": 69.0,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t63snn/why_llamacpp_cant_combine_speculative_decode/",
-          "translations": {}
-        },
-        {
-          "topic": "ai",
-          "title": "Qwen/WebWorld 32B/14B/8B (Qwen3 finetune)",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t6c6vs/qwenwebworld_32b14b8b_qwen3_finetune/",
-          "source": "Reddit LocalLLaMA",
-          "sourceType": "forum",
-          "published": "2026-05-07T14:28:47+00:00",
-          "summary": "**WebWorld** is a large-scale **open-web world model** series for training and evaluating web agents. It is trained on **1M+ real-world web interaction trajectories** via a scalable hierarchical data pipeline, supporting: * **Long-horizon simulation** (30+…",
-          "score": 2.198,
-          "rawScore": 30.0,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6c6vs/qwenwebworld_32b14b8b_qwen3_finetune/",
-          "translations": {}
-        },
-        {
-          "topic": "ai",
-          "title": "Any tool that tells you the cheapest setup needed to run a model? I want to know the cheapest setup that can realistically run Qwen 3.6 27B at decent speeds.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t617sw/any_tool_that_tells_you_the_cheapest_setup_needed/",
-          "source": "Reddit LocalLLaMA",
-          "sourceType": "forum",
-          "published": "2026-05-07T05:26:43+00:00",
-          "summary": "I’m looking for a tool or calculator that can estimate the minimum hardware needed to run a specific model locally. For example, I want to know the cheapest setup that can realistically run Qwen 3.6 27B at decent speeds. Ideally something that can tell me…",
-          "score": 2.183,
-          "rawScore": 124.0,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t617sw/any_tool_that_tells_you_the_cheapest_setup_needed/",
-          "translations": {}
-        },
-        {
-          "topic": "ai",
-          "title": "Qwen 3.6?",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t63ue8/qwen_36/",
-          "source": "Reddit LocalLLaMA",
-          "sourceType": "forum",
-          "published": "2026-05-07T07:56:05+00:00",
-          "summary": "Qwen/Qwen3.6-35B-A3B was released 22 days ago Qwen/Qwen3.6-27B was released 15 days ago Let's predict when we can expect the 9B and 122B versions",
-          "score": 2.12,
-          "rawScore": 146.5,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t63ue8/qwen_36/",
-          "translations": {}
-        },
-        {
-          "topic": "ai",
-          "title": "Dataset of 150k+ stool images and not sure how to fully use it [D]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1t5vy2i/dataset_of_150k_stool_images_and_not_sure_how_to/",
+          "title": "Getting harassed by an aggressive “independent researcher” demanding very specific citations and phrasing in my paper [D]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1t6vvjc/getting_harassed_by_an_aggressive_independent/",
           "source": "Reddit MachineLearning",
           "sourceType": "forum",
-          "published": "2026-05-07T01:13:15+00:00",
-          "summary": "I have a dataset of around 150k stool images; growing at 300+ images per day, and I’m trying to better understand the “right” way to use it for training a computer vision model. Right now, our process is pretty manual. We initially trained on about 5k images…",
-          "score": 2.098,
-          "rawScore": 40.0,
-          "commentsUrl": "https://www.reddit.com/r/MachineLearning/comments/1t5vy2i/dataset_of_150k_stool_images_and_not_sure_how_to/",
-          "translations": {}
+          "published": "2026-05-08T03:10:03+00:00",
+          "summary": "Hey Reddit, I’m a researcher in a niche theoretical CS/ML area. Recently I’ve been dealing with repeated emails from an “independent researcher” that feel like straight-up citation harassment. This person keeps sending follow-ups (including involving…",
+          "score": 2.509,
+          "rawScore": 160.0,
+          "commentsUrl": "https://www.reddit.com/r/MachineLearning/comments/1t6vvjc/getting_harassed_by_an_aggressive_independent/",
+          "translations": {
+            "es": {
+              "title": "Sospechados de acosar a un investigador independiente que exige citas muy específicas y fraseología en mi artículo [D]",
+              "summary": "¡Reddit, soy yo un investigador en una área teórica de CS/ML muy especializada. Recientemente he estado lidiando con correos electrónicos repetidos de un 'investigador independiente' que parecen pura citación de acoso. Este individuo sigue enviando correos…"
+            }
+          }
+        },
+        {
+          "topic": "ai",
+          "title": "guess what? if you are a chrome user, technically you are localllama member!",
+          "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+          "source": "Reddit LocalLLaMA",
+          "sourceType": "forum",
+          "published": "2026-05-07T21:54:34+00:00",
+          "summary": "TLDR chrome silently download a 4gb model checkpoint in your pc without user consent",
+          "score": 2.474,
+          "rawScore": 294.0,
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6orv0/guess_what_if_you_are_a_chrome_user_technically/",
+          "translations": {
+            "es": {
+              "title": "¿Qué tal? Si eres usuario de Chrome, técnicamente eres miembro de LocalLama",
+              "summary": "Chrome descarga silenciosamente un checkpoint de modelo de 4GB en tu PC sin consentimiento del usuario"
+            }
+          }
+        },
+        {
+          "topic": "ai",
+          "title": "\"Hardware is the only moat\" - Should we buy new hardware now or wait?",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t6x2yx/hardware_is_the_only_moat_should_we_buy_new/",
+          "source": "Reddit LocalLLaMA",
+          "sourceType": "forum",
+          "published": "2026-05-08T04:09:15+00:00",
+          "summary": "\"Hardware is the only moat\". I read that quote yesterday, and at first, I thought it was just another person trying to sound smart on Twitter. But after the latest Anthropic + xAI developments, I’m starting to believe it. Open source will probably win in the…",
+          "score": 2.435,
+          "rawScore": 161.5,
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6x2yx/hardware_is_the_only_moat_should_we_buy_new/",
+          "translations": {
+            "es": {
+              "title": "\"El hardware es el único muro\" - ¿Compramos nueva hardware ahora o esperamos?",
+              "summary": "Lee la frase 'el hardware es el único muro'. Al principio pensé que era solo una persona tratando de parecer inteligente en Twitter. Pero después de las últimas desarrollaciones de Anthropic y xAI, estoy empezando a creerlo. La Open Source probablemente gane…"
+            }
+          }
+        },
+        {
+          "topic": "ai",
+          "title": "Gemma 4 26B Hits 600 Tok/s on One RTX 5090",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t796qe/gemma_4_26b_hits_600_toks_on_one_rtx_5090/",
+          "source": "Reddit LocalLLaMA",
+          "sourceType": "forum",
+          "published": "2026-05-08T14:13:52+00:00",
+          "summary": "I ran a benchmark to see how much DFlash speculative decoding actually helps in vLLM. Setup: * GPU: RTX 5090, 32GB VRAM * vLLM: 0.19.2rc1 * Main model: cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit * Draft model: z-lab/gemma-4-26B-A4B-it-DFlash * Workload: random…",
+          "score": 2.419,
+          "rawScore": 60.0,
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t796qe/gemma_4_26b_hits_600_toks_on_one_rtx_5090/",
+          "translations": {
+            "es": {
+              "title": "Gemma 4 26B alcanza 600 Tok/s en una RTX 5090",
+              "summary": "Realicé un benchmark para ver cuánto realmente ayuda la codificación especulativa de DFlash en vLLM. Configuración: * GPU: RTX 5090, 32GB VRAM * vLLM: 0.19.2rc1 * Modelo principal: cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit * Modelo draft…"
+            }
+          }
+        },
+        {
+          "topic": "ai",
+          "title": "THE UNDERPRIVILEGED AI FOUNDATION Because every little model deserves a chance",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t70hlm/the_underprivileged_ai_foundation_because_every/",
+          "source": "Reddit LocalLLaMA",
+          "sourceType": "forum",
+          "published": "2026-05-08T07:11:46+00:00",
+          "summary": "Is there a 7B parameter model in your life struggling to understand sarcasm? A tiny 1.5B that can't afford one more epoch? **YOU CAN HELP.** For just $0.006 CAD per training step, you can send a small model to college. Give them the gift of knowledge. The…",
+          "score": 2.405,
+          "rawScore": 105.5,
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t70hlm/the_underprivileged_ai_foundation_because_every/",
+          "translations": {
+            "es": {
+              "title": "LA FUNDACIÓN DE MODELOS SUBRETIKES Porque cada modelo pequeño merece una oportunidad",
+              "summary": "¿Tienes un modelo de 7B parámetros que lucha para entender el sarcasmo? ¿O uno que no puede permitirse más épocas? **PUEDES AYUDAR.** Para solo $0.006 CAD por cada paso de entrenamiento, puedes enviar a un pequeño modelo a la universidad. Dales el regalo de…"
+            }
+          }
+        },
+        {
+          "topic": "ai",
+          "title": "4GB \"Gemini Nano\" model GGUF anyone?",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t72aui/4gb_gemini_nano_model_gguf_anyone/",
+          "source": "Reddit LocalLLaMA",
+          "sourceType": "forum",
+          "published": "2026-05-08T08:56:48+00:00",
+          "summary": "Hi everyone, I saw an article saying Chrome silently downloads a \\~4GB AI model (likely \"Gemini Nano\") to your computer for features like text summarization. Two questions: 1. What is the exact name/version of this model? 2. Is there a **GGUF** file…",
+          "score": 2.331,
+          "rawScore": 85.0,
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t72aui/4gb_gemini_nano_model_gguf_anyone/",
+          "translations": {
+            "es": {
+              "title": "Modelo de 4GB 'Gemini Nano' GGUF alguien?",
+              "summary": "Hola a todos, vi un artículo que dice que Chrome descarga silenciosamente un modelo AI de alrededor de 4GB (probablemente 'Gemini Nano') a tu computadora para características como resumen de texto. Dos preguntas: ¿Cuál es el nombre exacto/version del modelo?…"
+            }
+          }
+        },
+        {
+          "topic": "ai",
+          "title": "DIY market declining amid high RAM prices",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t6gmcn/diy_market_declining_amid_high_ram_prices/",
+          "source": "Reddit LocalLLaMA",
+          "sourceType": "forum",
+          "published": "2026-05-07T17:03:58+00:00",
+          "summary": "Asus shipped 15 million motherboards in 2025. Only expected to ship 10 million in 2026. CPU prices are also rising. DIY = Do it yourself, build your own PC. Excerpt: NVIDIA GPU upgrade slowdown coupled with CPU and memory shortages causes PC motherboard…",
+          "score": 2.308,
+          "rawScore": 231.0,
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6gmcn/diy_market_declining_amid_high_ram_prices/",
+          "translations": {
+            "es": {
+              "title": "El mercado DIY declinando a medida que suben los precios de la RAM",
+              "summary": "Asus envió 15 millones de placas madre en 2025. Solo se espera un shipment de 10 millones en 2026. Los precios del CPU también están aumentando. DIY = Construye tu propio PC. Excerpt: La lentitud de la actualización de GPU NVIDIA, junto con las carencias de…"
+            }
+          }
         },
         {
           "topic": "ai",
@@ -258,36 +270,87 @@ window.DIGEST_DATA = {
           "sourceType": "forum",
           "published": "2026-05-07T16:54:57+00:00",
           "summary": "Might be another option of us local LLM folks. I am very curious on the price.",
-          "score": 2.065,
-          "rawScore": 61.0,
+          "score": 2.285,
+          "rawScore": 198.5,
           "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6gcw0/amd_to_release_slottable_gpu/",
-          "translations": {}
+          "translations": {
+            "es": {
+              "title": "AMD anuncia lanzamiento de tarjeta gráfica montable",
+              "summary": "Puede ser otra opción para nosotros LLM. Estoy muy interesado en el precio."
+            }
+          }
         },
         {
           "topic": "ai",
-          "title": "META Superintelligence Lab Presents: ProgramBench: Can SOTA AI Recreate Real Executable Programs(ffmpeg, SQLite, ripgrep) From Scratch Without The Internet?",
-          "url": "https://www.reddit.com/gallery/1t5vnyq",
+          "title": "Disillusionment with mechanistic interpretability research [D]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1t6zdj6/disillusionment_with_mechanistic_interpretability/",
           "source": "Reddit MachineLearning",
           "sourceType": "forum",
-          "published": "2026-05-07T03:51:21+00:00",
-          "summary": "",
-          "score": 2.024,
-          "rawScore": 37.0,
-          "commentsUrl": "https://www.reddit.com/r/MachineLearning/comments/1t5zdg5/meta_superintelligence_lab_presents_programbench/",
-          "translations": {}
+          "published": "2026-05-08T06:10:52+00:00",
+          "summary": "Hey all, apologies if this is the wrong place to post this. I'm currently an undergrad computer scientist that got swept up in the mechanistic interpretability wave c. 2024 or so (sparse autoencoders, attribution graphs) and found it generally promising (and…",
+          "score": 2.25,
+          "rawScore": 70.0,
+          "commentsUrl": "https://www.reddit.com/r/MachineLearning/comments/1t6zdj6/disillusionment_with_mechanistic_interpretability/",
+          "translations": {
+            "es": {
+              "title": "Desilusión con la investigación de interpretabilidad mecánica [D]",
+              "summary": "Hola todos, disculpen si este no es el lugar adecuado para publicar esto. Soy un estudiante de ingeniería en computación que se vio envuelto en la ola de interpretabilidad mecánica alrededor de 2024 (autoencoders con espacios reducidos, gráficos de…"
+            }
+          }
         },
         {
           "topic": "ai",
-          "title": "I analyzed 922 agentic task trace and found the secret weapon of DeepSeek v4",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t5lywi/i_analyzed_922_agentic_task_trace_and_found_the/",
+          "title": "Gift to myself : tiny lab",
+          "url": "https://i.redd.it/fa0vcbcklvzg1.jpeg",
           "source": "Reddit LocalLLaMA",
           "sourceType": "forum",
-          "published": "2026-05-06T18:46:20+00:00",
-          "summary": "I recently did a benchmark of deepseek v4 in agentic tasks. Performance-wise, it's one of the best open source models, as expected. What really surprised me is the cost. I mean I know it's cheap, but it's cheap in a way that doesn't really make sense. # Cost…",
-          "score": 1.989,
-          "rawScore": 50.5,
-          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5lywi/i_analyzed_922_agentic_task_trace_and_found_the/",
-          "translations": {}
+          "published": "2026-05-08T08:40:00+00:00",
+          "summary": "",
+          "score": 2.242,
+          "rawScore": 187.5,
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t720ac/gift_to_myself_tiny_lab/",
+          "translations": {
+            "es": {
+              "title": "Regalo a mi mismo: pequeño laboratorio",
+              "summary": ""
+            }
+          }
+        },
+        {
+          "topic": "ai",
+          "title": "ZAYA1-74B-Preview: Scaling Pretraining on AMD",
+          "url": "https://www.zyphra.com/post/zaya1-74b-preview",
+          "source": "Reddit LocalLLaMA",
+          "sourceType": "forum",
+          "published": "2026-05-07T22:50:22+00:00",
+          "summary": "",
+          "score": 2.238,
+          "rawScore": 137.0,
+          "commentsUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6q58n/zaya174bpreview_scaling_pretraining_on_amd/",
+          "translations": {
+            "es": {
+              "title": "ZAYA1-74B: Preentrenamiento escalado en AMD",
+              "summary": ""
+            }
+          }
+        },
+        {
+          "topic": "ai",
+          "title": "ECCV reviewer wants me to compare and contrast to my own paper. [D]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1t6e4i7/eccv_reviewer_wants_me_to_compare_and_contrast_to/",
+          "source": "Reddit MachineLearning",
+          "sourceType": "forum",
+          "published": "2026-05-07T15:36:41+00:00",
+          "summary": "Bascially title. A reviewer found the arxiv of our paper, which is an older version, before we changed the title and name of the method for this submission. The results, figures and all that are the same minus some additions for the current version, a even…",
+          "score": 2.098,
+          "rawScore": 101.0,
+          "commentsUrl": "https://www.reddit.com/r/MachineLearning/comments/1t6e4i7/eccv_reviewer_wants_me_to_compare_and_contrast_to/",
+          "translations": {
+            "es": {
+              "title": "Revisor de ECCV me pide que compare y contraste con mi propio trabajo. [D]",
+              "summary": "En esencia, el título. Un revisor encontró la arXiv de nuestro trabajo, que es una versión antigua, antes de cambiar el título y nombre del método para este envío. Los resultados, las figuras y todo eso son los mismos menos algunas adiciones para la versión…"
+            }
+          }
         }
       ]
     },
@@ -296,127 +359,25 @@ window.DIGEST_DATA = {
       "label": "Mercado energetico",
       "description": "Precios, energia electrica, petroleo, gas, renovables, redes, geopolitica y regulacion.",
       "summary": {
-        "headline": "Precios de energía en alza y escasez de suministros",
+        "headline": "La energía renovable se impone en el mercado energético global",
         "bullets": [
-          "Los precios del gas alcanzan los $4,54/gal en EEUU, un aumento del 47% desde el comienzo de la guerra en Irán.",
-          "La escasez de jet fuel en Europa podría provocar cancelaciones de vuelos y cierres de aeropuertos pequeños a partir de junio.",
-          "Las compañías petroleras están reduciendo sus almacenamientos para satisfacer la demanda durante el verano."
+          "El uso de energías renovables como la electricidad y el gas ha reducido las importaciones de gas en £1.7 billones desde que comenzó la guerra en Irán.",
+          "Los paneles solares y baterías domésticas están impulsando un aumento en la producción de energía renovable, con un 82% de la energía procedente de fuentes limpias",
+          "La eficiencia de los nuevos células solares ha alcanzado el 30%, lo que podría reducir las emisiones de gases de efecto invernadero"
         ],
         "themes": [
-          "Precios de energía en alza",
-          "Escasez de suministros de petróleo y gas",
-          "Impacto de la guerra en Irán en el merca",
-          "Renovables como alternativa a los combus",
-          "Geopolítica y regulación en el sector en"
+          "Precios y energía eléctrica",
+          "Energía renovable: solares, eólica, hidr",
+          "Geopolítica y regulación en el mercado e",
+          "Redes de distribución y transmisión de e",
+          "Petroleo y gas",
+          "Impacto del cambio climático en el merca"
         ],
         "model": "ollama:llama3.1:8b",
-        "sourceCount": 2,
-        "forumCount": 18
+        "sourceCount": 3,
+        "forumCount": 12
       },
       "items": [
-        {
-          "topic": "energy",
-          "title": "Republicans who slammed Biden’s gas prices are preaching patience for Trump. On Friday, gas prices hit $4.54/gal , a 47% increase from the average of $2.98 shortly before Trump's…",
-          "url": "http://www.ms.now/news/republicans-slammed-biden-gas-prices-preaching-patience-trump",
-          "source": "Reddit Energy",
-          "sourceType": "forum",
-          "published": "2026-05-07T14:28:35+00:00",
-          "summary": "",
-          "score": 3.072,
-          "rawScore": 1355.5,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t6c6of/republicans_who_slammed_bidens_gas_prices_are/",
-          "translations": {
-            "es": {
-              "title": "Republicanos que criticaron los precios del gasolina de Biden ahora le dicen paciencia a Trump",
-              "summary": "Los republicanos que acusaron al presidente Joe Biden de aumentar los precios del gasolina ahora le piden paciencia a Donald Trump, quien enfrenta un aumento del 47% en el precio promedio de $2.98 por galón."
-            }
-          }
-        },
-        {
-          "topic": "energy",
-          "title": "Angola switches on Africa’s largest off-grid solar-plus-storage park",
-          "url": "https://www.pv-magazine.com/2026/05/06/angola-switches-on-africas-largest-off-grid-solar-plus-storage-park/",
-          "source": "Reddit RenewableEnergy",
-          "sourceType": "forum",
-          "published": "2026-05-07T06:37:27+00:00",
-          "summary": "",
-          "score": 2.644,
-          "rawScore": 217.0,
-          "commentsUrl": "https://www.reddit.com/r/RenewableEnergy/comments/1t62ics/angola_switches_on_africas_largest_offgrid/",
-          "translations": {
-            "es": {
-              "title": "Angola enciende el parque solar y almacenamiento más grande sin conexión eléctrica de África",
-              "summary": "África tiene un nuevo parque solar y almacenamiento sin conexión eléctrica, con capacidad para Angola."
-            }
-          }
-        },
-        {
-          "topic": "energy",
-          "title": "Chevron CEO sends blunt message on oil and the economy. “We will start to see physical shortages. Demand needs to move to meet supply. Economies are going to have to slow.” The…",
-          "url": "https://www.reddit.com/r/energy/comments/1t6cdx6/chevron_ceo_sends_blunt_message_on_oil_and_the/",
-          "source": "Reddit Energy",
-          "sourceType": "forum",
-          "published": "2026-05-07T14:35:35+00:00",
-          "summary": "www.thestreet.com/economy/chevron-ceo-sends-blunt-message-on-oil-and-the-economy",
-          "score": 2.599,
-          "rawScore": 297.0,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t6cdx6/chevron_ceo_sends_blunt_message_on_oil_and_the/",
-          "translations": {
-            "es": {
-              "title": "El CEO de Chevron envía mensaje directo sobre el petróleo y la economía",
-              "summary": "Chevron advierte que verán faltas físicas en el suministro, demanda debe moverse para mantener el equilibrio entre oferta y demanda. Las economías tendrán que disminuir."
-            }
-          }
-        },
-        {
-          "topic": "energy",
-          "title": "Solar panels reduce thermal stress in dairy barns during critical afternoon hours",
-          "url": "https://www.pv-magazine.com/2026/05/06/solar-panels-reduces-thermal-stress-in-dairy-barns-during-critical-afternoon-hours/",
-          "source": "Reddit RenewableEnergy",
-          "sourceType": "forum",
-          "published": "2026-05-07T00:25:39+00:00",
-          "summary": "",
-          "score": 2.407,
-          "rawScore": 342.0,
-          "commentsUrl": "https://www.reddit.com/r/RenewableEnergy/comments/1t5uvaa/solar_panels_reduce_thermal_stress_in_dairy_barns/",
-          "translations": {
-            "es": {
-              "title": "Panels solares reducen el estrés térmico en granjas de leche durante las horas críticas del mediodía",
-              "summary": "Las placas solares ayudan a reducir el estrés térmico en granjas de leche, especialmente durante las horas del mediodía cuando la temperatura suele ser más alta. Esto puede mejorar la salud y productividad de los animales."
-            }
-          }
-        },
-        {
-          "topic": "energy",
-          "title": "Europe’s jet fuel supplies should fall below the key 23-day shortage threshold in June, so plan your travel accordingly",
-          "url": "https://fortune.com/2026/05/06/europe-jet-fuel-fall-below-23-day-shortage-threshold/?utm_source=reddit/",
-          "source": "Reddit Energy",
-          "sourceType": "forum",
-          "published": "2026-05-06T19:30:24+00:00",
-          "summary": "Europe is weeks away from crossing a critical threshold that represents a severe and immediate shortage of jet fuel, triggering many more flight cancelations and even the possible closures of smaller airports. A new Goldman Sachs research report estimates…",
-          "score": 2.178,
-          "rawScore": 207.0,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t5n7oa/europes_jet_fuel_supplies_should_fall_below_the/",
-          "translations": {
-            "es": {
-              "title": "Los suministros de combustible para aviones en Europa caerán por debajo del umbral crítico de 23 días en junio, así que planifique su viaje",
-              "summary": "En junio, Europa está a semanas de cruzar un umbral crítico que representa una severa y inmediata falta de combustible para aviones. Esto podría llevar a cancelaciones masivas de vuelos y posibles cierres de aeropuertos menores."
-            }
-          }
-        },
-        {
-          "topic": "energy",
-          "title": "Oil supplies will tighten, even with peace",
-          "url": "https://www.reddit.com/r/energy/comments/1t5yies/oil_supplies_will_tighten_even_with_peace/",
-          "source": "Reddit Energy",
-          "sourceType": "forum",
-          "published": "2026-05-07T03:09:43+00:00",
-          "summary": "Oil supplies are poised to tighten further in the coming weeks, even if a peace agreement is reached between the U.S. and Iran. Resuming oil shipments from the Middle East Gulf and delivering them to global refiners will take weeks, forcing oil companies to…",
-          "score": 2.103,
-          "rawScore": 55.5,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t5yies/oil_supplies_will_tighten_even_with_peace/",
-          "translations": {}
-        },
         {
           "topic": "energy",
           "title": "Analysis: Wind and solar have saved UK from gas imports worth £1.7bn since Iran war began",
@@ -425,36 +386,141 @@ window.DIGEST_DATA = {
           "sourceType": "forum",
           "published": "2026-05-07T17:09:39+00:00",
           "summary": "",
-          "score": 2.015,
-          "rawScore": 14.0,
+          "score": 2.605,
+          "rawScore": 162.0,
           "commentsUrl": "https://www.reddit.com/r/energy/comments/1t6gs6l/analysis_wind_and_solar_have_saved_uk_from_gas/",
-          "translations": {}
+          "translations": {
+            "es": {
+              "title": "Análisis: El conflicto con Irán ha salvado a la UE de importaciones de gas por valor de £1.7 mil millones desde el inicio del conflicto",
+              "summary": "El conflicto con Irán ha permitido que la UE reduzca significativamente sus importaciones de gas natural, ahorrando más de £1.7 mil millones en costos energéticos."
+            }
+          }
         },
         {
           "topic": "energy",
-          "title": "24/7 Renewables Outcompete Fossil Fuels on Costs",
-          "url": "https://www.irena.org/News/pressreleases/2026/May/24-7-Renewables-Outcompete-Fossil-Fuels-on-Firm-Costs",
+          "title": "\"Blows your mind:\" Regulator says boom in home batteries and PV puts 82 pct renewables within reach",
+          "url": "https://reneweconomy.com.au/blows-your-mind-regulator-says-boom-in-home-batteries-and-pv-puts-82-pct-renewables-within-reach/",
           "source": "Reddit RenewableEnergy",
           "sourceType": "forum",
-          "published": "2026-05-07T13:11:30+00:00",
+          "published": "2026-05-08T01:50:02+00:00",
           "summary": "",
-          "score": 1.847,
-          "rawScore": 35.0,
-          "commentsUrl": "https://www.reddit.com/r/RenewableEnergy/comments/1t6a52k/247_renewables_outcompete_fossil_fuels_on_costs/",
-          "translations": {}
+          "score": 2.391,
+          "rawScore": 285.0,
+          "commentsUrl": "https://www.reddit.com/r/RenewableEnergy/comments/1t6u67a/blows_your_mind_regulator_says_boom_in_home/",
+          "translations": {
+            "es": {
+              "title": "Regulador: La expansión de las baterías y paneles solares en hogares pone el 82% de la energía renovable al alcance",
+              "summary": "El regulador afirma que la rápida expansión de las baterías y paneles solares en hogares ha reducido significativamente los costos energéticos."
+            }
+          }
         },
         {
           "topic": "energy",
-          "title": "Gas prices are spiking. Why aren’t U.S. oil companies drilling more?",
-          "url": "https://www.scientificamerican.com/article/gas-prices-are-spiking-so-why-arent-u-s-oil-companies-drilling-more/",
+          "title": "New solar cells hit 30% efficiency and still work after 1,000 hours of power",
+          "url": "https://interestingengineering.com/energy/all-perovskite-solar-cell-efficiency-past-30",
+          "source": "Reddit RenewableEnergy",
+          "sourceType": "forum",
+          "published": "2026-05-07T19:13:19+00:00",
+          "summary": "",
+          "score": 2.365,
+          "rawScore": 317.5,
+          "commentsUrl": "https://www.reddit.com/r/RenewableEnergy/comments/1t6kctz/new_solar_cells_hit_30_efficiency_and_still_work/",
+          "translations": {
+            "es": {
+              "title": "Nuevos paneles solares alcanzan un 30% de eficiencia y siguen funcionando después de mil horas de energía",
+              "summary": "Los nuevos paneles solares han logrado una eficiencia del 30%, lo que representa un avance significativo en la tecnología solar."
+            }
+          }
+        },
+        {
+          "topic": "energy",
+          "title": "Bill to Allow Plug-In Solar Panels in Colorado Signed Into Law",
+          "url": "https://www.cohousedems.com/news/bill-to-allow-plug-in-solar-panels-signed-into-law",
+          "source": "Reddit RenewableEnergy",
+          "sourceType": "forum",
+          "published": "2026-05-08T03:12:52+00:00",
+          "summary": "",
+          "score": 2.323,
+          "rawScore": 219.0,
+          "commentsUrl": "https://www.reddit.com/r/RenewableEnergy/comments/1t6vxoj/bill_to_allow_plugin_solar_panels_in_colorado/",
+          "translations": {
+            "es": {
+              "title": "Ley para permitir paneles solares recargables en Colorado es firmada",
+              "summary": "La ley permite a los ciudadanos instalar paneles solares que se recargan con la electricidad del hogar, reduciendo así el costo de energía."
+            }
+          }
+        },
+        {
+          "topic": "energy",
+          "title": "The Iran war is turbocharging China's bid to become an electrostate superpower | DW News",
+          "url": "https://youtu.be/hoQvMz0I8-w?si=x8vYzoKrv1xZQe0v",
           "source": "Reddit Energy",
           "sourceType": "forum",
-          "published": "2026-05-07T02:33:39+00:00",
+          "published": "2026-05-08T06:09:54+00:00",
+          "summary": "The video suggests that many countries are pivoting to renewables very rapidly due to the current energy shock. I thought they were light on actual examples. I expect it is somewhat true, that the rapid rollout will speed up even more. It occured to me while…",
+          "score": 2.135,
+          "rawScore": 74.5,
+          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t6zcu4/the_iran_war_is_turbocharging_chinas_bid_to/",
+          "translations": {
+            "es": {
+              "title": "El conflicto con Irán acelera China en su camino hacia ser un superpoder energético",
+              "summary": "La rápida adopción de tecnologías renovables por parte de muchos países está acelerando la transformación del mundo, especialmente en Asia."
+            }
+          }
+        },
+        {
+          "topic": "energy",
+          "title": "Industry can dodge fuel shocks by electrifying. What’s the holdup?",
+          "url": "https://www.canarymedia.com/articles/clean-industry/industry-fuel-shocks-electrifying",
+          "source": "Reddit Energy",
+          "sourceType": "forum",
+          "published": "2026-05-08T02:58:05+00:00",
           "summary": "",
-          "score": 1.775,
-          "rawScore": 24.0,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t5xq76/gas_prices_are_spiking_why_arent_us_oil_companies/",
-          "translations": {}
+          "score": 2.016,
+          "rawScore": 108.0,
+          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t6vmgh/industry_can_dodge_fuel_shocks_by_electrifying/",
+          "translations": {
+            "es": {
+              "title": "La industria puede evitar los shocks energéticos mediante la electrificación",
+              "summary": "Los expertos sugieren que la electrificación de la economía podría ayudar a mitigar los impactos económicos de las fluctuaciones en el precio del petróleo."
+            }
+          }
+        },
+        {
+          "topic": "energy",
+          "title": "Ukraine Says It Hit Two Major Oil Refineries in Russia Overnight",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-08/ukraine-says-it-hit-two-major-oil-refineries-in-russia-overnight",
+          "source": "Reddit Energy",
+          "sourceType": "forum",
+          "published": "2026-05-08T14:05:14+00:00",
+          "summary": "",
+          "score": 1.91,
+          "rawScore": 28.0,
+          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t78ydy/ukraine_says_it_hit_two_major_oil_refineries_in/",
+          "translations": {
+            "es": {
+              "title": "Ucrania afirma que ha golpeado dos refinerías de petróleo principales en Rusia durante la noche",
+              "summary": "Ucrania dice haber atacado dos importantes refineries de petróleo rusas durante la noche."
+            }
+          }
+        },
+        {
+          "topic": "energy",
+          "title": "Disney makes move to ditch gas engines on iconic attraction amid crackdown from California regulators",
+          "url": "https://nypost.com/2026/05/06/business/disneyland-set-to-retire-gas-powered-cars-on-autopia-ride/?utm_source=substack&amp;utm_medium=email",
+          "source": "Reddit RenewableEnergy",
+          "sourceType": "forum",
+          "published": "2026-05-08T14:26:33+00:00",
+          "summary": "",
+          "score": 1.701,
+          "rawScore": 19.0,
+          "commentsUrl": "https://www.reddit.com/r/RenewableEnergy/comments/1t79jiz/disney_makes_move_to_ditch_gas_engines_on_iconic/",
+          "translations": {
+            "es": {
+              "title": "Disney toma medidas para eliminar motores a gas en su atracción icónica ante la presión regulatoria de California",
+              "summary": "Disney toma medidas para eliminar sus motores a gas en su atracción icónica ante la presión regulatoria de California."
+            }
+          }
         },
         {
           "topic": "energy",
@@ -464,117 +530,182 @@ window.DIGEST_DATA = {
           "sourceType": "forum",
           "published": "2026-05-07T16:19:03+00:00",
           "summary": "Lately it feels like the U.S. has been pulling back a bit from the big clean energy push we were seeing a few years ago. There’s more discussion again around oil production, natural gas, energy independence, and lowering fuel costs, especially with…",
-          "score": 1.773,
-          "rawScore": 16.5,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t6fcbv/has_the_us_started_turning_away_from_clean_energy/",
-          "translations": {}
-        },
-        {
-          "topic": "energy",
-          "title": "Shell profits surge on Iran war price-shock as windfall tax calls grow",
-          "url": "https://www.reddit.com/r/energy/comments/1t66uwq/shell_profits_surge_on_iran_war_priceshock_as/",
-          "source": "Reddit Energy",
-          "sourceType": "forum",
-          "published": "2026-05-07T10:47:31+00:00",
-          "summary": "Political momentum to tax windfall profits in the oil and gas sector appears to be growing in recent weeks, although no clear EU-level majority has emerged so far",
-          "score": 1.697,
-          "rawScore": 6.0,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t66uwq/shell_profits_surge_on_iran_war_priceshock_as/",
-          "translations": {}
-        },
-        {
-          "topic": "energy",
-          "title": "Earnings It’s not just Big Oil. Wind giants welcome profit beats as Iran war spurs energy pivot",
-          "url": "https://www.cnbc.com/2026/05/07/iran-war-renewables-wind-oil-gas-equinor-orsted.html",
-          "source": "Reddit Energy",
-          "sourceType": "forum",
-          "published": "2026-05-07T14:23:42+00:00",
-          "summary": "",
           "score": 1.694,
-          "rawScore": 11.0,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t6c1ua/earnings_its_not_just_big_oil_wind_giants_welcome/",
-          "translations": {}
+          "rawScore": 22.5,
+          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t6fcbv/has_the_us_started_turning_away_from_clean_energy/",
+          "translations": {
+            "es": {
+              "title": "¿El U.S. ha empezado a alejarse del energías limpias? ¿Y eso es bueno o malo ahora?",
+              "summary": "Lately, el U.S. parece haberse alejado un poco de la gran presión por las energías limpias que veíamos hace unos años. Hay más discusión sobre la producción de petróleo, gas natural y energía independiente, y bajar los costos del combustible, especialmente…"
+            }
+          }
         },
         {
           "topic": "energy",
-          "title": "Shell profits rise as Iran war pushes oil prices higher",
-          "url": "https://www.bbc.com/news/articles/ce3p0x54drwo",
+          "title": "New Gas-Powered Data Centers Could Emit More Greenhouse Gases Than Entire Nations",
+          "url": "https://www.wired.com/story/new-gas-powered-data-centers-could-emit-more-greenhouse-gases-than-entire-nations/",
           "source": "Reddit Energy",
           "sourceType": "forum",
-          "published": "2026-05-07T12:58:37+00:00",
+          "published": "2026-05-08T03:37:08+00:00",
           "summary": "",
-          "score": 1.682,
-          "rawScore": 15.0,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t69t7e/shell_profits_rise_as_iran_war_pushes_oil_prices/",
-          "translations": {}
-        },
-        {
-          "topic": "energy",
-          "title": "Oil prices drop and stock markets rise after reports of deal to end Iran war",
-          "url": "https://www.bbc.com/news/articles/c4g8zejyyr3o",
-          "source": "Reddit Energy",
-          "sourceType": "forum",
-          "published": "2026-05-07T13:33:53+00:00",
-          "summary": "",
-          "score": 1.665,
+          "score": 1.685,
           "rawScore": 19.0,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t6apwh/oil_prices_drop_and_stock_markets_rise_after/",
-          "translations": {}
+          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t6wfgq/new_gaspowered_data_centers_could_emit_more/",
+          "translations": {
+            "es": {
+              "title": "Los centros de datos con energía gasolina podrían emitir más gases de efecto invernadero que países enteros",
+              "summary": "Centros de datos con energía gasolina podrían emitir más gases de efecto invernadero que los países entres."
+            }
+          }
         },
         {
           "topic": "energy",
-          "title": "Why Iran’s Oil Wealth Isn’t Reaching Its People",
-          "url": "https://www.reddit.com/r/energy/comments/1t69xl4/why_irans_oil_wealth_isnt_reaching_its_people/",
+          "title": "U.S. solar panel manufacturers need to learn to solder",
+          "url": "https://www.reddit.com/r/energy/comments/1t76gtd/us_solar_panel_manufacturers_need_to_learn_to/",
           "source": "Reddit Energy",
           "sourceType": "forum",
-          "published": "2026-05-07T13:03:14+00:00",
-          "summary": "",
-          "score": 1.661,
-          "rawScore": 19.0,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t69xl4/why_irans_oil_wealth_isnt_reaching_its_people/",
-          "translations": {}
+          "published": "2026-05-08T12:28:11+00:00",
+          "summary": "U.S. solar panel manufacturers need to learn to solder CEA’s 2026 manufacturing quality report finds that yield rates vary widely based on the age of solar module assembly facilities, with mature Chinese firms nearing 100% and U.S. outlier facilities ranging…",
+          "score": 1.358,
+          "rawScore": 6.0,
+          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t76gtd/us_solar_panel_manufacturers_need_to_learn_to/",
+          "translations": {
+            "es": {
+              "title": "Los fabricantes de placas solares en el U.S. necesitan aprender a soldar",
+              "summary": "Los fabricantes de placas solares en el U.S. necesitan aprender a soldar. El informe de calidad de producción de CEA para 2026 encuentra que las tasas de rendimiento varían ampliamente dependiendo del estado de los centros de fabricación de placas solares…"
+            }
+          }
         },
         {
           "topic": "energy",
-          "title": "Current energy situation is now a macro tailwind for plastic recyclers. Recycled resin is not only greener but cheaper and not subject to supply chain risks.",
-          "url": "https://www.reddit.com/r/energy/comments/1t5q6lt/current_energy_situation_is_now_a_macro_tailwind/",
-          "source": "Reddit Energy",
-          "sourceType": "forum",
-          "published": "2026-05-06T21:16:36+00:00",
-          "summary": "One of the few good unintended consequences from Trump and Israel's war. High oil prices have increased the price of virgin resin to the point where companies like PureCycle that create recycled resin from poly propylene are now more competitive than ever…",
-          "score": 1.584,
-          "rawScore": 11.0,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t5q6lt/current_energy_situation_is_now_a_macro_tailwind/",
-          "translations": {}
+          "title": "Oil and Gas Activity Fuels Fresh TSX Market Buzz - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUlh2eFJTbTBoOVhNSjZrR2tPZk91YTN0LVI2ellTRmdsWlFaUzQxZXQ5elo2alE2VmpKa1Z6OTRKVGVqRjBnMTR3T1hFWU5BOTRtSERrRFpxV1RaMlFmSUZrTmhmSVdMcUZSTXFQeTVpNHlzcU41OXJpSVhwRDlEclluZm9ZcDUybDR4aUlmSDVPc3lsMVE?oc=5",
+          "source": "Google News Energy Global",
+          "sourceType": "rss",
+          "published": "Fri, 08 May 2026 15:02:00 GMT",
+          "summary": "Oil and Gas Activity Fuels Fresh TSX Market Buzz Kalkine Media",
+          "score": 1.176,
+          "rawScore": 1.0,
+          "commentsUrl": null,
+          "translations": {
+            "es": {
+              "title": "Actividad del petróleo y gas alimenta nuevo buzz en el mercado de la TSX - Kalkine Media",
+              "summary": "Kalkine Media informa sobre una nueva onda de actividad en el mercado de la TSX relacionada con el sector petrolero y gás"
+            }
+          }
         },
         {
           "topic": "energy",
-          "title": "Rezolv Energy inaugurates 225-MW solar park in Bulgaria",
-          "url": "https://renewablesnow.com/news/rezolv-energy-inaugurates-225-mw-solar-park-in-bulgaria-1294275/",
+          "title": "Schools Scale Solar Through Broader Energy Strategy",
+          "url": "https://www.environmentenergyleader.com/stories/schools-scale-solar-through-broader-energy-strategy,124399?utm_source=substack&amp;utm_medium=email",
           "source": "Reddit RenewableEnergy",
           "sourceType": "forum",
-          "published": "2026-05-07T14:48:35+00:00",
+          "published": "2026-05-08T14:08:18+00:00",
           "summary": "",
-          "score": 1.518,
-          "rawScore": 11.0,
-          "commentsUrl": "https://www.reddit.com/r/RenewableEnergy/comments/1t6crdr/rezolv_energy_inaugurates_225mw_solar_park_in/",
-          "translations": {}
+          "score": 1.153,
+          "rawScore": 3.0,
+          "commentsUrl": "https://www.reddit.com/r/RenewableEnergy/comments/1t791ba/schools_scale_solar_through_broader_energy/",
+          "translations": {
+            "es": {
+              "title": "Las escuelas escalan el sol a través de una estrategia energética más amplia",
+              "summary": ""
+            }
+          }
         },
         {
           "topic": "energy",
-          "title": "TSMC taps wind power as AI chip demand soars, Taiwan feels energy crunch",
-          "url": "http://arstechnica.com/gadgets/2026/05/tsmc-taps-wind-power-as-ai-chip-demand-soars-taiwan-feels-energy-crunch",
-          "source": "Reddit Energy",
-          "sourceType": "forum",
-          "published": "2026-05-07T15:22:20+00:00",
-          "summary": "",
-          "score": 1.415,
-          "rawScore": 6.5,
-          "commentsUrl": "https://www.reddit.com/r/energy/comments/1t6dpt3/tsmc_taps_wind_power_as_ai_chip_demand_soars/",
-          "translations": {}
+          "title": "EU gas and electricity costs for businesses and services fell in the second half of 2025 - Eunews",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcmx5Z0ZFdjlXVXZUVnd0NGZfZlN0MzVwUGFVNFpsYTR3bEtOQnYxeUNTZGNBX3NCTGd2ZTBWSmJqZE14Q0NHN2lsa243T2lHelZjbXdRZGtUV2hRQXNfZ2pZX0xybFYybWIwLW9rUlpfcTduTnB0YjJXcjNBZWRuRGxLemtBazNQMnFxbmtEeUQwUlNoM0JHY1hTR29PTzc3N2hvektnWWdBOGlhaU14bTVzNVNQRXg5aE9YcjMxOXVxUnM?oc=5",
+          "source": "Google News Energy Global",
+          "sourceType": "rss",
+          "published": "Fri, 08 May 2026 11:53:14 GMT",
+          "summary": "EU gas and electricity costs for businesses and services fell in the second half of 2025 Eunews",
+          "score": 1.15,
+          "rawScore": 1.0,
+          "commentsUrl": null,
+          "translations": {
+            "es": {
+              "title": "Costos de gas y electricidad en Europa para empresas y servicios cayeron durante el segundo semestre de 2025",
+              "summary": "Los costos de gas y electricidad para empresas y servicios en Europa disminuyeron durante el segundo semestre de 2025"
+            }
+          }
+        },
+        {
+          "topic": "energy",
+          "title": "Negative Electricity Prices Surge in France as Solar Capacity and Nuclear Inflexibility Reshape the Market - IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNU3RGdUpuak9NMmFrV3BpT0dXRVl3SU15RktWdkstdEl0X2lLZnVMUGVwWjd0OWxkQ3NUd1dBdjNUcFltdHNvZC1ORHJPOTRmcHdTWF92OVVBUWJHTUdDUlo1bkJkeWh3a29wcERMWjVCSXVSQ0VleWJPV0ZEb1ItV0RILW5CSG9wZzFzSmxKSTRvdl94LXZ0dktDcUsyNGpFRWVISk12cm4xYnIyNk1SWmtaVklfT1J6cU5iNEJlUGprUFdEVW9UV19leFR5a2pBTXc?oc=5",
+          "source": "Google News Energy Global",
+          "sourceType": "rss",
+          "published": "Fri, 08 May 2026 11:40:00 GMT",
+          "summary": "Negative Electricity Prices Surge in France as Solar Capacity and Nuclear Inflexibility Reshape the Market IndexBox",
+          "score": 1.148,
+          "rawScore": 1.0,
+          "commentsUrl": null,
+          "translations": {
+            "es": {
+              "title": "Las Precios Negativos de Electricidad Suben en Francia debido a la capacidad solar e inestabilidad del nuclear",
+              "summary": "Los precios negativos de electricidad subieron en Francia por la alta capacidad solar y la inestabilidad del nuclear"
+            }
+          }
+        },
+        {
+          "topic": "energy",
+          "title": "Energy Stocks And Industry News: Oil, Gas, Solar, Coal And Nuclear Energy - Investor's Business Daily",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa3EtY3RUQXZhMi1nQTQyVmxac0p4dEhmR1pTSmFJV1VuYi1LQXZYZmI5cUY1QXhtZDh1dF9ieHdXUWYwektoRDRLNlV5cU5yODc3OXFJTHF5SjMwTHBQNDRuVHl4dVI0TkJUb3N5TWtlUFVLYkxXR29FTnhoX1JOQUNLcUNsMEsyQjBCUXhRLUtYQmttNEFDV1R6Sm82UmREdkt0NWotUjQ2NUpINVN1TUhZUE1rdmR6VEtYdDgzQVBYVDNXc0lCdXZFU29JVWhTcGc?oc=5",
+          "source": "Google News Energy Global",
+          "sourceType": "rss",
+          "published": "Thu, 07 May 2026 15:54:00 GMT",
+          "summary": "Energy Stocks And Industry News: Oil, Gas, Solar, Coal And Nuclear Energy Investor's Business Daily",
+          "score": 1.144,
+          "rawScore": 1.0,
+          "commentsUrl": null,
+          "translations": {
+            "es": {
+              "title": "Noticias de Energía: Petróleo, Gas, Solar, Carbón y Nucleo - Investor's Business Daily",
+              "summary": "Investor's Business Daily publica noticias sobre el sector energético incluyendo petróleo, gas, solar, carbón y nuclear"
+            }
+          }
+        },
+        {
+          "topic": "energy",
+          "title": "Indonesia to develop 13 new oil and gas wells in East Kalimantan transmigration area - Indonesia Business Post",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMkhjV19iaDZTTDZlN0wyRmg2MjladElvNDlrZWNkQW51UHUzU1lPUGRyOWQ5RFBKNmxsTEpfZWo3SjRGNmFOMzFwZWNCbWJHVGk0QUgwTDl3RF8yRTJpRzkyVjNUMHlMYTBiTTAwS25MUTZTWWRfMFRHTkIySGNWZ3g5MU5QVkM1QXR1ektEWXBUdk9vblg4ODZrUC1KaTdaR2NNaUc1ejE0OWVDTl9pY3hXdmhjSUM3TXpXVXdjSWN5d25KazBmTk9IOFIzaTFBSWlxWEhYdFBJbkhZ?oc=5",
+          "source": "Google News Energy Global",
+          "sourceType": "rss",
+          "published": "Fri, 08 May 2026 09:36:41 GMT",
+          "summary": "Indonesia to develop 13 new oil and gas wells in East Kalimantan transmigration area Indonesia Business Post",
+          "score": 1.131,
+          "rawScore": 1.0,
+          "commentsUrl": null,
+          "translations": {
+            "es": {
+              "title": "Indonesia desarrollará 13 nuevos pozos de petróleo y gas en la área de transmigración del este de Kalimantan - Indonesia Business Post",
+              "summary": "Indonesia Business Post informa sobre el desarrollo de 13 nuevos pozos de petróleo y gas en la región de transmigración del este de Kalimantan"
+            }
+          }
+        },
+        {
+          "topic": "energy",
+          "title": "Australia Orders LNG Exporters to Reserve 20% of Gas for Domestic Market - Crude Oil Prices Today | OilPrice.com",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZFVCXzFtQ2Rhd0NhQVRPVlJZTnF5Nk1PM054M0llTVoxTzc1Z1pQb2hCTGkyN0N5em1XRkJDSmR1N1ppSjVaVlBXcFR5ZlJmTEVwMWplNTBMcEZUUHdWSHdJN3B3LWFUaUg1dU9mUEhlN0NYbnRPeVdvbFVTUTFsOURnZnVuclh1THQxejVXbGppSGd6YWN5aTJGLUh3MjVNQ1VLd3E0clJWbGlGM3JXUXNzcFNwQWtrYlBuSThLMUY1eWhjOEHSAcsBQVVfeXFMTkx0VF92cS1kVXBpclc4QUFYWFhrRWhFUTRPeUc4aVRnQ1czWVJTR3ZhbHMwZ29VX21falhQeTNONE1rcjMxdW1ielNBZTJSVlNBaDB6SUtaSHdlOWc1OGd5eklHWUxpWnRpd0UydWU4MmJCS2NwNVBwWDY5RW1XSzVVZkpfbi1nb2l5WC15TG9va0xORU80OUlpS1pMTC1Lbk4xbmctcFpqdk1XeTFsQUdkXzZYa0tJSG43OXAxM1ktV1U0WTFrajhlQVk?oc=5",
+          "source": "Google News Energy Global",
+          "sourceType": "rss",
+          "published": "Thu, 07 May 2026 06:00:00 GMT",
+          "summary": "Australia Orders LNG Exporters to Reserve 20% of Gas for Domestic Market Crude Oil Prices Today | OilPrice.com",
+          "score": 1.061,
+          "rawScore": 1.0,
+          "commentsUrl": null,
+          "translations": {
+            "es": {
+              "title": "Australia ordena a los exportadores de LNG reservar el 20% del gas para el mercado doméstico - Crude Oil Prices Today | OilPrice.com",
+              "summary": "OilPrice.com informa sobre la orden de Australia a los exportadores de LNG de reservar el 20% del gas para el mercado interno"
+            }
+          }
         }
       ]
     }
   ],
-  "errors": []
+  "errors": [
+    "ai / arXiv IA y ML: HTTPError - HTTP Error 429: Unknown Error"
+  ]
 };
